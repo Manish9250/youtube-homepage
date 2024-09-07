@@ -2,18 +2,119 @@
 <html>
     <head>
         <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <style>
+            p {
+                font-family: Roboto, Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .video-preview{
+                width: 320px;
+                display: inline-block;
+                vertical-align: top ;
+                margin-right: 16px;
+            }
             .thumbnails{
-                width: 300px;
-                height: 300px;
-                border-radius: 250px;
+                width: 320px;
+                height: 200px;
                 object-fit: cover;
+            }
+            .search-bar{
+                font-size: 20px;
+                display: block ;
+            }
 
-        </style>
+            .profile-pic{
+                width: 36px;
+                height: 36px;
+                object-fit:cover;
+                border-radius: 18px;
+            }
+            .video-profile{
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+            .video-info{
+                display: inline-block;
+            }
+
+            .video-title{
+                margin-top: 0;
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            .thumbnails-row{
+                margin-bottom: 12px;
+            }
+            
+            .channel-name,
+            .video-stats{
+                color: rgb(32, 31, 31);
+                font-size: 14px;
+            }
+            .channel-name{
+                margin-bottom: 5px;
+            }
+            
+
+        </style>    
 
     </head>
     <body>
-        <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        
+        <div class="video-preview">
+            <div class="thumbnails-row">
+                <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
+            </div>
+
+            <div>
+                <div class="video-profile">
+                    <img class="profile-pic" src="Profiles_pictures/cats.jpg">
+                </div>
+                
+                <div class="video-info">
+                    <p class="video-title">Pucchu ne Salini ko peeta !!!</p>
+                    <p class="channel-name">Pucchu's House</p>
+                    <p class="video-stats">50.5M views &#183; 1 week ago</p>
+                </div>
+               
+            </div>
+        </div>
+
+
+
+        <div class="video-preview">
+            <img class="thumbnails" src="thumbnails/IMG_20240811_184408.jpg">
+            <p>Pucchu aur uske Mama k baccho ne milke Bille ko peeta !!!</p>
+            <p>Pucchu's House</p>
+            <p>100.5M views &#183; 3 week ago</p>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
+            <p>Pucchu ne Salini ko peeta</p>
+            <p>Pucchu's House</p>
+            <p>50.5M views &#183; 1 week ago</p>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
+            <p>Pucchu ne Salini ko peeta</p>
+            <p>Pucchu's House</p>
+            <p>50.5M views &#183; 1 week ago</p>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
+            <p>Pucchu ne Salini ko peeta</p>
+            <p>Pucchu's House</p>
+            <p>50.5M views &#183; 1 week ago</p>
+        </div>
+
 
     </body>
     
