@@ -12,15 +12,11 @@
                 margin-bottom: 0;
             }
             .video-preview{
-                width: 320px;
-                display: inline-block;
-                vertical-align: top ;
-                margin-right: 16px;
+                width: 100%;
             }
             .thumbnails{
-                width: 320px;
-                height: 200px;
-                object-fit: cover;
+                width: 100%;
+                
             }
             .search-bar{
                 font-size: 20px;
@@ -60,7 +56,19 @@
             .channel-name{
                 margin-bottom: 5px;
             }
+
+            .below-thumbnail{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
             
+            .main-grid-div{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 35px;
+
+            }
 
         </style>    
 
@@ -68,53 +76,125 @@
     <body>
         <input class="search-bar" type="text" placeholder="Search">
 
+        <div class="main-grid-div">
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails" src="thumbnails/IMG_20240811_184408.jpg">
+                </div>
+    
+                <div class="below-thumbnail">
+                    <div class="video-profile">
+                        <img class="profile-pic" src="Profiles_pictures/cats.jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">Pucchu aur uske mama ki baccho ne milke BEELOTE ko peeta !!!</p>
+                        <p class="channel-name">Pucchu's House</p>
+                        <p class="video-stats">505M views &#183; 1 week ago</p>
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails" src="thumbnails/orange.jpg">
+                </div>
+    
+                <div class="below-thumbnail">
+                    <div class="video-profile">
+                        <img class="profile-pic" src="Profiles_pictures/cats.jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">Santra Kese Khaye !!!</p>
+                        <p class="channel-name">Pucchu's House</p>
+                        <p class="video-stats">50.5M views &#183; 1 week ago</p>
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails" src="thumbnails/Biilota1.jpg">
+                </div>
+    
+                <div class="below-thumbnail">
+                    <div class="video-profile">
+                        <img class="profile-pic" src="Profiles_pictures/cats.jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">Billota Hua PAREEEESAN...</p>
+                        <p class="channel-name">Pucchu's House</p>
+                        <p class="video-stats">15.1M views &#183; 1 week ago</p>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails" src="thumbnails/minecraft1.jpg">
+                </div>
+    
+                <div class="below-thumbnail">
+                    <div class="video-profile">
+                        <img class="profile-pic" src="Profiles_pictures/cats.jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">Playing minecraft a day before exam.</p>
+                        <p class="channel-name">Pucchu's House</p>
+                        <p class="video-stats">521K views &#183; 1 week ago</p>
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails" src="thumbnails/minelava.jpg">
+                </div>
+    
+                <div class="below-thumbnail">
+                    <div class="video-profile">
+                        <img class="profile-pic" src="Profiles_pictures/cats.jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">Pucchi ko Lava m dubbo dubbo k mara!!!</p>
+                        <p class="channel-name">Pucchu's House</p>
+                        <p class="video-stats">253K views &#183; 1 week ago</p>
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails" src="thumbnails/coc.jpg">
+                </div>
+    
+                <div class="below-thumbnail">
+                    <div class="video-profile">
+                        <img class="profile-pic" src="Profiles_pictures/cats.jpg">
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">TownHall MAXEEEED !!!</p>
+                        <p class="channel-name">Pucchu's House</p>
+                        <p class="video-stats">5.5M views &#183; 1 week ago</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+
         
-        <div class="video-preview">
-            <div class="thumbnails-row">
-                <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
-            </div>
-
-            <div>
-                <div class="video-profile">
-                    <img class="profile-pic" src="Profiles_pictures/cats.jpg">
-                </div>
-                
-                <div class="video-info">
-                    <p class="video-title">Pucchu ne Salini ko peeta !!!</p>
-                    <p class="channel-name">Pucchu's House</p>
-                    <p class="video-stats">50.5M views &#183; 1 week ago</p>
-                </div>
-               
-            </div>
-        </div>
-
-
-
-        <div class="video-preview">
-            <img class="thumbnails" src="thumbnails/IMG_20240811_184408.jpg">
-            <p>Pucchu aur uske Mama k baccho ne milke Bille ko peeta !!!</p>
-            <p>Pucchu's House</p>
-            <p>100.5M views &#183; 3 week ago</p>
-        </div>
-        <div class="video-preview">
-            <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
-            <p>Pucchu ne Salini ko peeta</p>
-            <p>Pucchu's House</p>
-            <p>50.5M views &#183; 1 week ago</p>
-        </div>
-        <div class="video-preview">
-            <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
-            <p>Pucchu ne Salini ko peeta</p>
-            <p>Pucchu's House</p>
-            <p>50.5M views &#183; 1 week ago</p>
-        </div>
-        <div class="video-preview">
-            <img class="thumbnails" src="thumbnails/Photo from 2024-09-04 18-05-12.451684.jpeg">
-            <p>Pucchu ne Salini ko peeta</p>
-            <p>Pucchu's House</p>
-            <p>50.5M views &#183; 1 week ago</p>
-        </div>
-
+        
 
     </body>
     
