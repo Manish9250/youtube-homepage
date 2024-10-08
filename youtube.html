@@ -5,76 +5,35 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <style>
-            p {
-                font-family: Roboto, Arial;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-            .video-preview{
-                width: 100%;
-            }
-            .thumbnails{
-                width: 100%;
-                
-            }
-            .search-bar{
-                font-size: 20px;
-                display: block ;
-            }
-
-            .profile-pic{
-                width: 36px;
-                height: 36px;
-                object-fit:cover;
-                border-radius: 18px;
-            }
-            .video-profile{
-                display: inline-block;
-                width: 50px;
-                vertical-align: top;
-            }
-            .video-info{
-                display: inline-block;
-            }
-
-            .video-title{
-                margin-top: 0;
-                font-size: 16px;
-                font-weight: 500;
-                margin-bottom: 10px;
-            }
-            .thumbnails-row{
-                margin-bottom: 12px;
-            }
-            
-            .channel-name,
-            .video-stats{
-                color: rgb(32, 31, 31);
-                font-size: 14px;
-            }
-            .channel-name{
-                margin-bottom: 5px;
-            }
-
-            .below-thumbnail{
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-            
-            .main-grid-div{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 16px;
-                row-gap: 35px;
-
-            }
-
-        </style>    
+        
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/video.css">
 
     </head>
-    <body>
-        <input class="search-bar" type="text" placeholder="Search">
+    <body class="body">
+        <div class="header">
+            <div class="left-header">
+                <img class="hamburger-menu" src="Logos/hamburger-menu.svg">
+                <img class="youtube-logo" src="Logos/youtube-logo.svg">
+            </div>
+            <div class="middle-header">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                     <img class="search-icon" src="Logos/search.svg">
+                </button>
+                <button class="voice-search-button">
+                     <img class="voice-search-icon" src="Logos/voice-search-icon.svg">
+                </button>
+            </div>
+            <div class="right-header">
+                <img class="upload-icon" src="Logos/upload.svg">
+                <img class="youtube-apps-icon" src="Logos/youtube-apps.svg">
+                <img class="notifications-icon" src="Logos/notifications.svg">
+                <img class="profile-pic-icon" src="/youtube/Profiles_pictures/cats.jpg">
+            </div>
+        </div>
+    </body>
 
         <div class="main-grid-div">
             <div class="video-preview">
