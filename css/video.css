@@ -1,9 +1,25 @@
 .video-preview{
     width: 100%;
 }
+.thumbnails-row{
+    margin-bottom: 12px;
+    position: relative;
+}
 .thumbnails{
     width: 100%;
-    
+}
+.timer{
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    border-radius: 2px;
+    padding: 2px;
 }
 
 
@@ -28,9 +44,7 @@
     font-weight: 500;
     margin-bottom: 10px;
 }
-.thumbnails-row{
-    margin-bottom: 12px;
-}
+
 
 .channel-name,
 .video-stats{
