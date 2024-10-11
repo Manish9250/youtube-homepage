@@ -7,6 +7,31 @@
     left: 0;
     bottom: 0;
 
-    
+    z-index: 200;
 
+    
 }
+.side-bar-link{
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+.side-bar-link:hover{
+    background-color: lightgrey;
+}
+
+
+.side-bar-link img{
+    height: 25px;
+    margin-bottom: 2px;
+}
+.side-bar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
